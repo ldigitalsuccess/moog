@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0968dc">
+    <meta name="description" content="MOOG is hatching. Meet the rabbit before the warren opens.">
+    <title>MOOG — The Waking Rabbit</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="moog-title">
+        <div class="hero__media" aria-hidden="true">
+          <img class="hero__fallback" src="assets/moog-banner.png" alt="">
+          <video id="hero-video" autoplay muted loop playsinline poster="assets/moog-banner.png">
+            <source src="assets/moog-sky.mp4" type="video/mp4">
+          </video>
+          <div class="hero__wash"></div>
+        </div>
+
+        <nav class="topbar" aria-label="Primary navigation">
+          <a class="wordmark" href="#top" aria-label="MOOG home">MOOG</a>
+          <a class="topbar__link" href="#community">THE WARREN <span aria-hidden="true">↘</span></a>
+        </nav>
+
+        <div class="hero__content" id="top">
+          <p class="eyebrow">THE RABBIT IS AWAKE</p>
+          <h1 id="moog-title">MOOG</h1>
+          <p class="hero__line">no leash. no map. just moog.</p>
+
+          <div class="launch-card">
+            <p class="launch-card__label" data-launch-copy role="status" aria-live="polite" aria-atomic="true">MOOG IS HATCHING IN</p>
+            <div id="countdown" class="countdown" aria-label="Countdown to MOOG launch">
+              <div class="countdown__unit"><strong data-unit="days">10</strong><span>days</span></div>
+              <div class="countdown__unit"><strong data-unit="hours">00</strong><span>hours</span></div>
+              <div class="countdown__unit"><strong data-unit="minutes">00</strong><span>mins</span></div>
+              <div class="countdown__unit"><strong data-unit="seconds">00</strong><span>secs</span></div>
+            </div>
+          </div>
+
+          <div class="hero__actions">
+            <button class="button button--solid" type="button" disabled aria-disabled="true">CA TBA <span aria-hidden="true">✦</span></button>
+            <a class="button button--outline" href="#community">JOIN THE WARREN <span aria-hidden="true">↘</span></a>
+          </div>
+        </div>
+
+        <div class="rabbit-stage" aria-label="Interactive MOOG rabbit: move your cursor nearby">
+          <div id="rabbit">
+            <img class="rabbit__body" src="assets/moog-rabbit-cutout.png" alt="MOOG, a sleepy green rabbit standing in the clouds">
+            <img id="rabbit-head" class="rabbit__head" src="assets/moog-rabbit-cutout.png" alt="" aria-hidden="true">
+          </div>
+          <span class="rabbit-stage__hint">nudge moog with your mouse</span>
+        </div>
+
+        <p class="hero__scroll">SCROLL TO ENTER <span aria-hidden="true">↓</span></p>
+      </section>
+
+      <section class="story section" aria-labelledby="story-title">
+        <div class="section__number" aria-hidden="true">01</div>
+        <div class="story__copy">
+          <p class="eyebrow eyebrow--blue">WELCOME TO THE WARREN</p>
+          <h2 id="story-title">NOT HERE<br>TO BE CUTE.</h2>
+          <p>MOOG is the long-eared signal in the noise. A rabbit with sleepy eyes, loud energy, and absolutely nowhere to be but up in the clouds.</p>
+          <p>There is no grand speech. There is no map. There is just a warren waiting for the right moment to wake up.</p>
+        </div>
+        <div class="story__portrait">
+          <img src="assets/moog-face.png" alt="Close-up illustration of MOOG against a blue sky">
+          <span>STAY WEIRD</span>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="MOOG signals">
+        <div class="ticker__track">
+          <span>CA TBA <i>✦</i> NO ROADMAP <i>✦</i> JUST MOOG <i>✦</i> STAY WEIRD <i>✦</i> CA TBA <i>✦</i> NO ROADMAP <i>✦</i> JUST MOOG <i>✦</i> STAY WEIRD <i>✦</i></span>
+        </div>
+      </section>
+
+      <section id="community" class="community section" aria-labelledby="community-title">
+        <div class="section__number" aria-hidden="true">02</div>
+        <div>
+          <p class="eyebrow eyebrow--blue">THE SIGNAL IS GROWING</p>
+          <h2 id="community-title">THE WARREN<br>IS <em>OPENING.</em></h2>
+        </div>
+        <div class="community__panel">
+          <p>Official channels will appear here when the rabbit says so.</p>
+          <div class="community__links" aria-label="MOOG community links">
+            <a href="https://x.com/moogverse?s=20" target="_blank" rel="noopener noreferrer" aria-label="Visit MOOG on X (opens in a new tab)"><b>𝕏</b> X / @MOOGVERSE <span aria-hidden="true">↗</span></a>
+            <a href="https://discord.gg/ZSrttmNCt" target="_blank" rel="noopener noreferrer" aria-label="Join MOOG on Discord (opens in a new tab)"><b>◉</b> DISCORD <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="community__note">Contract address: TBA</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 MOOG</span>
+      <span>MEMES ONLY. NOT FINANCIAL ADVICE.</span>
+      <a href="#top">BACK TO THE CLOUDS ↑</a>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
