@@ -120,7 +120,8 @@ h1 {
 .community h2 em { color: var(--pink); font-style: normal; }
 .community__panel { align-self: end; background: var(--ink); color: var(--paper); font-family: Arial, sans-serif; font-size: .9rem; font-weight: 700; line-height: 1.5; padding: 1.5rem; }
 .community__links { border-top: 1px solid rgba(255,255,255,.55); display: grid; gap: .85rem; margin: 1.25rem 0; padding-top: 1.25rem; }
-.community__links span { font-size: .72rem; letter-spacing: .06em; }
+.community__links a { color: inherit; font-size: .72rem; letter-spacing: .06em; text-decoration: none; transition: color .2s ease; }
+.community__links a:hover, .community__links a:focus-visible { color: var(--pink); }
 .community__links b { color: var(--pink); margin-right: .5rem; }
 .community__note { color: #9bc4e8; font-size: .65rem; letter-spacing: .08em; margin-bottom: 0; text-transform: uppercase; }
 
