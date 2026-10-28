@@ -90,7 +90,7 @@ h1 {
 
 .hero__actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
 .button { align-items: center; border: 2px solid #fffdf5; display: inline-flex; font-family: Arial, sans-serif; font-size: .68rem; font-weight: 900; gap: .7rem; justify-content: center; letter-spacing: .08em; min-height: 2.7rem; padding: .75rem 1rem; text-decoration: none; text-transform: uppercase; }
-.button--solid { background: #fffdf5; color: #0756b6; cursor: not-allowed; opacity: 1; }
+.button--solid { background: #fffdf5; color: #0756b6; cursor: pointer; opacity: 1; }
 .button--outline { background: rgba(3, 58, 137, .25); color: #fffdf5; transition: background .2s ease, color .2s ease; }
 .button--outline:hover { background: #fffdf5; color: #0756b6; }
 
